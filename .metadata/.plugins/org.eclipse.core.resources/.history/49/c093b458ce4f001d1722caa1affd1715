@@ -1,0 +1,12 @@
+
+public class Square extends Shape {
+
+	public public Square() {
+		this.type = "Square";
+	}
+	@Override
+	void draw() {
+		System.out.println("Je dessine un carré");
+	}
+
+}

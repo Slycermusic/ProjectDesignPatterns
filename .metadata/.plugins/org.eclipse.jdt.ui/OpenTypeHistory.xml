@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+    <typeInfo handle="=AbstractFactoryPatternProject/src&lt;{Shape.java[Shape" modifiers="513" timestamp="1666194254359"/>
+    <typeInfo handle="=AbstractFactoryPatternProject/src&lt;{AbstractFactory.java[AbstractFactory" modifiers="1025" timestamp="1666194432095"/>
+    <typeInfo handle="=BuilderPatternProject/src&lt;{Packing.java[Packing" modifiers="513" timestamp="1666196496061"/>
+    <typeInfo handle="=BuilderPatternProject/src&lt;{Item.java[Item" modifiers="513" timestamp="1666196472409"/>
+    <typeInfo handle="=BuilderPatternProject/src&lt;{Burger.java[Burger" modifiers="1025" timestamp="1666196706970"/>
+    <typeInfo handle="=BuilderPatternProject/src&lt;{ColdDrink.java[ColdDrink" modifiers="1025" timestamp="1666196694133"/>
+    <typeInfo handle="=PrototypePatternProject/src&lt;{Shape.java[Shape" modifiers="1025" timestamp="1666198162922"/>
+    <typeInfo handle="=AdapterPatternProject/src&lt;{MediaPlayer.java[MediaPlayer" modifiers="513" timestamp="1666200484491"/>
+    <typeInfo handle="=BridgePatternProject/src&lt;{DrawAPI.java[DrawAPI" modifiers="513" timestamp="1666201726823"/>
+    <typeInfo handle="=BridgePatternProject/src&lt;{Shape.java[Shape" modifiers="1025" timestamp="1666202040606"/>
+    <typeInfo handle="=DecoratorPatternProject/src&lt;{Shape.java[Shape" modifiers="513" timestamp="1666203594463"/>
+    <typeInfo handle="=DecoratorPatternProject/src&lt;{ShapeDecorator.java[ShapeDecorator" modifiers="1025" timestamp="1666203682555"/>
+    <typeInfo handle="=FacadePatternProject/src&lt;{Shape.java[Shape" modifiers="513" timestamp="1666204301382"/>
+    <typeInfo handle="=FlyweightPatternProject/src&lt;{Shape.java[Shape" modifiers="513" timestamp="1666204871052"/>
+    <typeInfo handle="=ProxyPatternProject/src&lt;{Image.java[Image" modifiers="513" timestamp="1666205863784"/>
+    <typeInfo handle="=ChainOfResponsabilityPatternProject/src&lt;{AbstractLogger.java[AbstractLogger" modifiers="1025" timestamp="1666206888679"/>
+    <typeInfo handle="=CommandPatternProject/src&lt;{Order.java[Order" modifiers="513" timestamp="1666210106953"/>
+    <typeInfo handle="=IteratorPatternProject/src&lt;{Container.java[Container" modifiers="513" timestamp="1666210678561"/>
+    <typeInfo handle="=StatePatternProject/src&lt;{State.java[State" modifiers="513" timestamp="1666212066512"/>
+    <typeInfo handle="=StatePatternProject/C:\/Users\/Nightstone\/.p2\/pool\/plugins\/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.1.v20201027-0507\/jre\/lib\/jrt-fs.jar`java.xml=/module=/true=/=/javadoc_location=/https:\/\/docs.oracle.com\/en\/java\/javase\/15\/docs\/api\/=/&lt;javax.xml.stream.events(StartDocument.class[StartDocument" modifiers="1537" timestamp="1603771786000"/>
+    <typeInfo handle="=StrategyPatternProject/src&lt;{Strategy.java[Strategy" modifiers="513" timestamp="1666212379159"/>
+    <typeInfo handle="=TemplatePatternProject/src&lt;{Game.java[Game" modifiers="1025" timestamp="1666212705983"/>
+    <typeInfo handle="=VisitorPatternProject/src&lt;{ComputerPart.java[ComputerPart" modifiers="513" timestamp="1666213296009"/>
+    <typeInfo handle="=VisitorPatternProject/src&lt;{ComputerPartVisitor.java[ComputerPartVisitor" modifiers="513" timestamp="1666213389914"/>
+    <typeInfo handle="=InterpretorPatternProject/src&lt;{Expression.java[Expression" modifiers="513" timestamp="1666216760622"/>
+</typeInfoHistroy>

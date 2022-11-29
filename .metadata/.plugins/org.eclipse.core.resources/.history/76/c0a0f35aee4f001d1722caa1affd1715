@@ -1,0 +1,5 @@
+import javax.naming.Context;
+
+public class State {
+	public void doAction(Context context);
+}

@@ -1,0 +1,10 @@
+
+public class RoundedShapeFactory extends AbstractFactory {
+
+	@Override
+	public Shape getShape(String shapeType) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

@@ -1,0 +1,9 @@
+
+public class Circle extends Shape {
+
+	@Override
+	void draw() {
+		System.out.println("Je dessine un cercle");
+	}
+
+}
