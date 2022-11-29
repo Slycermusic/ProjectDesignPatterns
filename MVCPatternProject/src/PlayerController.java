@@ -14,16 +14,15 @@ public class PlayerController {
     }
 
     private void addListenersToModel() {
-        model.addAttaqueListener(fieldView);
-        model.addDefenseListener(listView);
-        model.addPvListener(listView);
+        model.addPlayerStatListener(listView);
     }
  
     public void displayViews(){
         fieldView.display();
         listView.display();
+
     }
- 
+
     public void closeViews(){
         fieldView.close();
         listView.close();

@@ -20,7 +20,6 @@ public class FrameListVolume extends PlayerView {
         listPlayer.add(Integer.toString(pv));
         frame.add(listPlayer);
 
- 
         frame.setTitle("JFrameListVolume");
         frame.pack();
     }
@@ -37,6 +36,7 @@ public class FrameListVolume extends PlayerView {
  
     public void playerStatChanged(PlayerStatChangedEvent event) {
         listPlayer.add(Integer.toString(event.getNewAttaque()));
-
+        listPlayer.add(Integer.toString(event.getNewDefense()));
+        listPlayer.add(Integer.toString(event.getNewPv()));
     }
 }

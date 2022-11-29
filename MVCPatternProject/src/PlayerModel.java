@@ -7,8 +7,6 @@ public class PlayerModel {
 
     private EventListenerList listeners;
 
-
-
     public PlayerModel(int attaque, int defense, int pv){
         this.attaque = attaque;
         this.defense = defense;
@@ -36,20 +34,10 @@ public class PlayerModel {
         playerStatChanged();
     }
  
-    public void addAttaqueListener(PlayerListener listener){
+    public void addPlayerStatListener(PlayerListener listener){
         listeners.add(PlayerListener.class, listener);
     }
-    public void removeAttaqueListener(PlayerListener l){listeners.remove(PlayerListener.class, l);}
-
-    public void addDefenseListener(PlayerListener listener){
-        listeners.add(PlayerListener.class, listener);
-    }
-    public void removeDefenseListener(PlayerListener l){listeners.remove(PlayerListener.class, l);}
-
-    public void addPvListener(PlayerListener listener){
-        listeners.add(PlayerListener.class, listener);
-    }
-    public void removePvListener(PlayerListener l){listeners.remove(PlayerListener.class, l);}
+    public void removePlayerStatListener(PlayerListener l){listeners.remove(PlayerListener.class, l);}
 
     public void playerStatChanged(){
         PlayerListener[] listenerList = (PlayerListener[])listeners.getListeners(PlayerListener.class);
