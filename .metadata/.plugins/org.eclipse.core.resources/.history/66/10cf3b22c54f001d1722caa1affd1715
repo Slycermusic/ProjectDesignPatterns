@@ -1,5 +1,5 @@
 
-public class Rectangle implements Shape {
+public class Rectangle implements main.factory.Shape {
 
 	@Override
 	public void draw() {

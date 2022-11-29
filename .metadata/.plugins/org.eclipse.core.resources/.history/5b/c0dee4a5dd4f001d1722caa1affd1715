@@ -1,5 +1,5 @@
 
-public class Circle implements Shape {
+public class Circle implements main.factory.Shape {
 
 	   private String color;
 	   private int x;

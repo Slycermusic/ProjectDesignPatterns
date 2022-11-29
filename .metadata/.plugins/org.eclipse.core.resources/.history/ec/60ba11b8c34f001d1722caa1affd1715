@@ -1,4 +1,4 @@
 
-public interface Shape {
+public interface main.factory.Shape {
 	void draw();
 }

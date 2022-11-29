@@ -1,3 +1,3 @@
-public abstract class AbstractFactory {
-	abstract Shape getShape(String shapeType);
+public abstract class main.factory.AbstractFactory {
+	abstract main.factory.Shape getShape(String shapeType);
 }

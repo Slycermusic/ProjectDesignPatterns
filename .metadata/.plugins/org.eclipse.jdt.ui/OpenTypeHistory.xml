@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <typeInfoHistroy>
-    <typeInfo handle="=AbstractFactoryPatternProject/src&lt;{Shape.java[Shape" modifiers="513" timestamp="1666194254359"/>
-    <typeInfo handle="=AbstractFactoryPatternProject/src&lt;{AbstractFactory.java[AbstractFactory" modifiers="1025" timestamp="1666194432095"/>
+    <typeInfo handle="=AbstractFactoryPatternProject/src&lt;{main.factory.Shape.java[main.factory.Shape" modifiers="513" timestamp="1666194254359"/>
+    <typeInfo handle="=AbstractFactoryPatternProject/src&lt;{main.factory.AbstractFactory.java[main.factory.AbstractFactory" modifiers="1025" timestamp="1666194432095"/>
     <typeInfo handle="=BuilderPatternProject/src&lt;{Packing.java[Packing" modifiers="513" timestamp="1666196496061"/>
     <typeInfo handle="=BuilderPatternProject/src&lt;{Item.java[Item" modifiers="513" timestamp="1666196472409"/>
     <typeInfo handle="=BuilderPatternProject/src&lt;{Burger.java[Burger" modifiers="1025" timestamp="1666196706970"/>
     <typeInfo handle="=BuilderPatternProject/src&lt;{ColdDrink.java[ColdDrink" modifiers="1025" timestamp="1666196694133"/>
-    <typeInfo handle="=PrototypePatternProject/src&lt;{Shape.java[Shape" modifiers="1025" timestamp="1666198162922"/>
+    <typeInfo handle="=PrototypePatternProject/src&lt;{main.factory.Shape.java[main.factory.Shape" modifiers="1025" timestamp="1666198162922"/>
     <typeInfo handle="=AdapterPatternProject/src&lt;{MediaPlayer.java[MediaPlayer" modifiers="513" timestamp="1666200484491"/>
     <typeInfo handle="=BridgePatternProject/src&lt;{DrawAPI.java[DrawAPI" modifiers="513" timestamp="1666201726823"/>
-    <typeInfo handle="=BridgePatternProject/src&lt;{Shape.java[Shape" modifiers="1025" timestamp="1666202040606"/>
-    <typeInfo handle="=DecoratorPatternProject/src&lt;{Shape.java[Shape" modifiers="513" timestamp="1666203594463"/>
+    <typeInfo handle="=BridgePatternProject/src&lt;{main.factory.Shape.java[main.factory.Shape" modifiers="1025" timestamp="1666202040606"/>
+    <typeInfo handle="=DecoratorPatternProject/src&lt;{main.factory.Shape.java[main.factory.Shape" modifiers="513" timestamp="1666203594463"/>
     <typeInfo handle="=DecoratorPatternProject/src&lt;{ShapeDecorator.java[ShapeDecorator" modifiers="1025" timestamp="1666203682555"/>
-    <typeInfo handle="=FacadePatternProject/src&lt;{Shape.java[Shape" modifiers="513" timestamp="1666204301382"/>
-    <typeInfo handle="=FlyweightPatternProject/src&lt;{Shape.java[Shape" modifiers="513" timestamp="1666204871052"/>
+    <typeInfo handle="=FacadePatternProject/src&lt;{main.factory.Shape.java[main.factory.Shape" modifiers="513" timestamp="1666204301382"/>
+    <typeInfo handle="=FlyweightPatternProject/src&lt;{main.factory.Shape.java[main.factory.Shape" modifiers="513" timestamp="1666204871052"/>
     <typeInfo handle="=ProxyPatternProject/src&lt;{Image.java[Image" modifiers="513" timestamp="1666205863784"/>
     <typeInfo handle="=ChainOfResponsabilityPatternProject/src&lt;{AbstractLogger.java[AbstractLogger" modifiers="1025" timestamp="1666206888679"/>
     <typeInfo handle="=CommandPatternProject/src&lt;{Order.java[Order" modifiers="513" timestamp="1666210106953"/>

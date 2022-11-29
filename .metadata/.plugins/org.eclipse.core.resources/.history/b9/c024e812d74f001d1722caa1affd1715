@@ -1,5 +1,5 @@
 
-public class Circle extends Shape {
+public class Circle extends main.factory.Shape {
 
 	@Override
 	public void draw() {

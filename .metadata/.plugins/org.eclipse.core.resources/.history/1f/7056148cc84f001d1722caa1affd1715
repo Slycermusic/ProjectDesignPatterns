@@ -1,8 +1,8 @@
 
-public class ShapeFactory extends AbstractFactory {
+public class ShapeFactory extends main.factory.AbstractFactory {
 
 	@Override
-	public Shape getShape(String shapeType) {
+	public main.factory.Shape getShape(String shapeType) {
 	      if(shapeType.equalsIgnoreCase("RECTANGLE")){
 	          return new Rectangle();         
 	       }else if(shapeType.equalsIgnoreCase("SQUARE")){

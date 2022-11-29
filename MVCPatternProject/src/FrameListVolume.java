@@ -5,7 +5,7 @@ public class FrameListVolume extends PlayerView {
     private Frame frame = null;
     private List listPlayer = null;
  
-    public FrameListVolume(PlayerController controller, int attaque, int defense, int pv){
+    public FrameListVolume(MainController controller, int attaque, int defense, int pv){
         super(controller); 
  
         buildFrame(attaque, defense, pv);

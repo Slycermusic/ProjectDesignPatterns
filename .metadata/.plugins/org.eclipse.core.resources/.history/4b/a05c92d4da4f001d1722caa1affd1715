@@ -1,5 +1,5 @@
 
-public abstract class ShapeDecorator implements Shape {
+public abstract class ShapeDecorator implements main.factory.Shape {
 
 	@Override
 	public void draw() {

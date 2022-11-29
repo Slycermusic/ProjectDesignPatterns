@@ -14,7 +14,7 @@ public class JFrameListVolume extends PlayerView {
 
     private DefaultListModel jListModel = null;
  
-    public JFrameListVolume(PlayerController controller, int attaque, int defense, int pv){
+    public JFrameListVolume(MainController controller, int attaque, int defense, int pv){
         super(controller); 
  
         buildFrame(attaque, defense, pv);

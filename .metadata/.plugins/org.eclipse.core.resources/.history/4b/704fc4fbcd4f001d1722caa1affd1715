@@ -1,5 +1,5 @@
 
-public abstract class Shape implements Cloneable {
+public abstract class main.factory.Shape implements Cloneable {
 	   private String id;
 	   protected String type;
 	   

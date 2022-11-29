@@ -1,4 +1,4 @@
-public class Square implements Shape {
+public class Square implements main.factory.Shape {
 	@Override
 	public void draw() {
 		System.out.println("Je dessine un rectangle");

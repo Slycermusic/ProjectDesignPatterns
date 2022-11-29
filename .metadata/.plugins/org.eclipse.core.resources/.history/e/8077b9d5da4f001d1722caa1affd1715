@@ -1,9 +1,9 @@
 
-public abstract class ShapeDecorator implements Shape {
+public abstract class ShapeDecorator implements main.factory.Shape {
 	
-	   protected Shape decoratedShape;
+	   protected main.factory.Shape decoratedShape;
 
-	   public ShapeDecorator(Shape decoratedShape){
+	   public ShapeDecorator(main.factory.Shape decoratedShape){
 	      this.decoratedShape = decoratedShape;
 	   }
 

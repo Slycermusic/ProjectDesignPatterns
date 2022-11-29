@@ -1,13 +1,13 @@
 public abstract class PlayerView implements PlayerListener{
-    private PlayerController controller = null;
+    private MainController controller = null;
 
-    public PlayerView(PlayerController controller){
+    public PlayerView(MainController controller){
         super();
  
         this.controller = controller;
     }
  
-    public final PlayerController getController(){
+    public final MainController getController(){
         return controller;
     }
  

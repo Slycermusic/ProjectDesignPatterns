@@ -1,5 +1,5 @@
 
-public class Rectangle extends Shape {
+public class Rectangle extends main.factory.Shape {
 
 	@Override
 	void draw() {

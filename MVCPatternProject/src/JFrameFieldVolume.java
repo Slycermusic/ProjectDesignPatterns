@@ -17,7 +17,7 @@ public class JFrameFieldVolume extends PlayerView implements ActionListener {
     private JButton button = null;
     private NumberFormat format = null;
  
-    public JFrameFieldVolume(PlayerController controller, int attaque, int defense, int pv){
+    public JFrameFieldVolume(MainController controller, int attaque, int defense, int pv){
         super(controller);
         buildFrame(attaque, defense, pv);
     }

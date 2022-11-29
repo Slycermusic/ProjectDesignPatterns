@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="Shape"/>
+    <fullyQualifiedTypeName name="main.factory.Shape"/>
     <fullyQualifiedTypeName name="Bottle"/>
     <fullyQualifiedTypeName name="java.lang.Cloneable"/>
     <fullyQualifiedTypeName name="java.util.Hashtable"/>

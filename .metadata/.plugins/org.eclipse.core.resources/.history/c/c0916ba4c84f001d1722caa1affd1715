@@ -1,8 +1,8 @@
 
-public class RoundedShapeFactory extends AbstractFactory {
+public class RoundedShapeFactory extends main.factory.AbstractFactory {
 
 	@Override
-	public Shape getShape(String shapeType) {
+	public main.factory.Shape getShape(String shapeType) {
 		// TODO Auto-generated method stub
 		return null;
 	}
