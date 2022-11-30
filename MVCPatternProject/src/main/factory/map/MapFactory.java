@@ -13,7 +13,6 @@ public class MapFactory extends AbstractFactory {
         }else if(shapeType.equalsIgnoreCase("PATH")){
             return new Path();
         }
-
         return null;
     }
 }

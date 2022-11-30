@@ -37,6 +37,7 @@ public class JFrameListVolume extends PlayerView {
  
         frame.setContentPane(contentPanel);
         frame.setTitle("JFrameListVolume");
+        frame.setSize(480,480);
         frame.pack();
     }
  

@@ -21,6 +21,7 @@ public class FrameListVolume extends PlayerView {
         frame.add(listPlayer);
 
         frame.setTitle("JFrameListVolume");
+        frame.setSize(480,480);
         frame.pack();
     }
  

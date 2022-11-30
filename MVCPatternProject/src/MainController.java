@@ -1,4 +1,5 @@
 public class MainController {
+
     public PlayerView fieldView = null;
     public PlayerView listView = null;
 
@@ -31,4 +32,5 @@ public class MainController {
     public void notifyPlayerStatChanged(int attaque, int defense, int pv){
         model.setPlayerStat(attaque, defense, pv);
     }
+
 }

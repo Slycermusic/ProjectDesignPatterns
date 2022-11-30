@@ -1,3 +1,10 @@
+import main.factory.AbstractFactory;
+import main.factory.FactoryProducer;
+import main.factory.Shape;
+import main.factory.map.Grass;
+import main.factory.map.MapFactory;
+import main.tileMap.TileMapModel;
+
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.text.NumberFormat;
@@ -54,9 +61,10 @@ public class JFrameFieldVolume extends PlayerView implements ActionListener {
         button = new JButton("Mettre à jour");
         button.addActionListener(this);
         contentPanel.add(button);
- 
+
         frame.setContentPane(contentPanel);
         frame.setTitle("JFrameFieldVolume");
+        frame.setSize(480,480);
         frame.pack();
     }
  
@@ -78,11 +86,10 @@ public class JFrameFieldVolume extends PlayerView implements ActionListener {
  
     public void actionPerformed(ActionEvent arg0) {
 
-//        if (test = true) {
-//            int value = VolumeModel.getVolume();
-//            value = value + 1;
-//            System.out.println(value);
-//        }
+        AbstractFactory shapeFactory = FactoryProducer.getFactory(1);
+        Shape shape1 = shapeFactory.getShape("GRASS");
+        shape1.draw();
+
         getController().notifyPlayerStatChanged(Integer.parseInt(field.getValue().toString()), Integer.parseInt(field1.getValue().toString()), Integer.parseInt(field2.getValue().toString()));
     }
 }

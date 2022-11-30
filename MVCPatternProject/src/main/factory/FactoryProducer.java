@@ -1,23 +1,22 @@
 package main.factory;
 
-import main.factory.AbstractFactory;
 import main.factory.enemy.EnemyFactory;
 import main.factory.map.MapFactory;
 import main.factory.player.PlayerFactory;
 
 public class FactoryProducer {
 
-	private static boolean map;
-	private static boolean player;
-	private static boolean	enemy;
-	public static AbstractFactory getFactory()
+	public static AbstractFactory getFactory(int i)
    	{
-	   	if(map){
-		   		return new MapFactory();
-	   		}	else if (player) {
-		   		return new PlayerFactory();
-	   		}	else {
-		   		return new EnemyFactory();
-	   		}
+		switch (i) {
+			case 1:
+				return new MapFactory();
+			case 2:
+				return new PlayerFactory();
+			case 3:
+				return new EnemyFactory();
+			default:
+				return null;
+		}
    	}
 }
