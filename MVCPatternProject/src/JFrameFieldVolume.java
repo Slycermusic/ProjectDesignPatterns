@@ -16,13 +16,13 @@ import javax.swing.JPanel;
 import javax.swing.text.DefaultFormatter;
  
 public class JFrameFieldVolume extends PlayerView implements ActionListener {
-    private JFrame frame = null;
-    private JPanel contentPanel = null;
-    private JFormattedTextField field = null;
-    private JFormattedTextField field1 = null;
-    private JFormattedTextField field2 = null;
-    private JButton button = null;
-    private NumberFormat format = null;
+    private static JFrame frame = null;
+    private static JPanel contentPanel = null;
+    private static JFormattedTextField field = null;
+    private static JFormattedTextField field1 = null;
+    private static JFormattedTextField field2 = null;
+    private static JButton button = null;
+    private static NumberFormat format = null;
  
     public JFrameFieldVolume(MainController controller, int attaque, int defense, int pv){
         super(controller);
@@ -31,7 +31,8 @@ public class JFrameFieldVolume extends PlayerView implements ActionListener {
  
     private void buildFrame(int attaque, int defense, int pv) {
         frame = new JFrame();
- 
+        frame.pack();
+        frame.setSize(480,480);
         contentPanel = new JPanel();
  
         format = NumberFormat.getNumberInstance();
@@ -65,8 +66,7 @@ public class JFrameFieldVolume extends PlayerView implements ActionListener {
         frame.setContentPane(contentPanel);
         frame.setVisible(true);
         frame.setTitle("JFrameFieldVolume");
-        frame.setSize(480,480);
-        frame.pack();
+
     }
  
     @Override

@@ -22,7 +22,9 @@ public class JFrameListVolume extends PlayerView {
  
     private void buildFrame(int attaque, int defense, int pv) {
         frame = new JFrame();
- 
+        frame.pack();
+        frame.setTitle("JFrameListVolume");
+        frame.setSize(480,480);
         contentPanel = new JPanel();
 
         jListModel = new DefaultListModel();
@@ -36,9 +38,8 @@ public class JFrameListVolume extends PlayerView {
         contentPanel.add(scrollVolume);
  
         frame.setContentPane(contentPanel);
-        frame.setTitle("JFrameListVolume");
-        frame.setSize(480,480);
-        frame.pack();
+
+
     }
  
     @Override

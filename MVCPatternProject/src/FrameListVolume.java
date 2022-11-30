@@ -13,16 +13,17 @@ public class FrameListVolume extends PlayerView {
  
     private void buildFrame(int attaque, int defense, int pv) {
         frame = new Frame();
-
+        frame.setTitle("JFrameListVolume");
+        frame.pack();
+        frame.setSize(480,480);
         listPlayer = new List();
         listPlayer.add(Integer.toString(attaque));
         listPlayer.add(Integer.toString(defense));
         listPlayer.add(Integer.toString(pv));
         frame.add(listPlayer);
 
-        frame.setTitle("JFrameListVolume");
-        frame.setSize(480,480);
-        frame.pack();
+
+
     }
  
     @Override
