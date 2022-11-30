@@ -63,6 +63,7 @@ public class JFrameFieldVolume extends PlayerView implements ActionListener {
         contentPanel.add(button);
 
         frame.setContentPane(contentPanel);
+        frame.setVisible(true);
         frame.setTitle("JFrameFieldVolume");
         frame.setSize(480,480);
         frame.pack();
